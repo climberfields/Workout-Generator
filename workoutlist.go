@@ -1,8 +1,18 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"random"
+)
 
 func main() {
-	Workout := []string{"Burpee", "Pushup", "Squat"}
-	fmt.Println(Workout)
+	Exercise := []string{"Burpee", "Pushup", "Squat"}
+	fmt.Println(Exercise)
+	Reps := []int{15, 20, 25}
+	fmt.Println(Reps)
+
+}
+
+func matching() {
+	pair1 := 
 }
